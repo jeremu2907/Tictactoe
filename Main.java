@@ -1,5 +1,6 @@
 /*
     This is tic tac toe 3x3 for now, working to n x n
+    Develop Logic.java for n x n
 */
 
 import java.util.*;
@@ -43,6 +44,8 @@ public class Main {
     }
 
     //Game logic
+    
+    //Under consideration to be replaced by Logic.java for n x n grid because current is n^3
     static Boolean logic (ArrayList<Integer> tokenData){
         if(tokenData.size() < 3)
             return false;
