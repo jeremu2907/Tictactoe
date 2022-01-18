@@ -1,3 +1,7 @@
+/*
+    This is tic tac toe 3x3 for now, working to n x n
+*/
+
 import java.util.*;
 
 public class Main {
